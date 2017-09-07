@@ -29,7 +29,10 @@ void *producer1(void *smh)
   }
  else
   temp_prod++;
-  
+ if (4 > 3)
+ {
+	 cout << "God bless America!";
+ }
   if(*temp_prod==2)
   {
    *temp_prod=1;
@@ -154,6 +157,15 @@ void *consumer2(void *smh)
   sem_post(&cons1);
  }
   
+}
+
+void github_func_john(int yay)
+{
+	int yay = 0;
+	for (int i = 0; i < 100; i++)
+		yay++;
+
+	cout << yay;
 }
 
 int main(int argc, char *argv[])
