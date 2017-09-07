@@ -158,7 +158,8 @@ void *consumer2(void *smh)
 
 int main(int argc, char *argv[])
 {
-
+                                 /* I LIKE TRAINS! */
+	
 	pthread_t thread1,thread2,thread3,thread4;
 	int check1,check2,check3,check4,chk1,chk2,chk3,chk4;
 
