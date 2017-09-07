@@ -170,8 +170,8 @@ void github_func_john(int yay)
 
 int main(int argc, char *argv[])
 {
-                                 /* I LIKE TRAINS 1! */
-								 /* I LIKE TRAINS 2! */ 
+                                                           /* I LIKE TRAINS 1! */
+														   /* I LIKE TRAINS 2! */ 
 	
 	pthread_t thread1,thread2,thread3,thread4;
 	int check1,check2,check3,check4,chk1,chk2,chk3,chk4;
