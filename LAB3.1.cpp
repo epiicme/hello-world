@@ -156,6 +156,15 @@ void *consumer2(void *smh)
   
 }
 
+void github_func_john(int yay)
+{
+	int yay = 0;
+	for (int i = 0; i < 100; i++)
+		yay++;
+
+	cout << yay;
+}
+
 int main(int argc, char *argv[])
 {
 
